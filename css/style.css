@@ -1,0 +1,33 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+.select-ingred {
+  width: 155px;
+}
+
+.choices {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+strong {
+  font-size: 40px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
